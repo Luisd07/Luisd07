@@ -1,16 +1,36 @@
-## Hi, I'm Luis 👋
+<div align="center">
 
-**Development Director at [KartChaser](https://kartchaser.com)**: I build the software and systems behind live professional karting broadcasts.
-IT student at Florida International University (Class of 2027), based in Miami, FL.
+# Luis Diaz
 
-### 🏁 What I work on
+### Development Director · Software Engineer · IT Student at FIU
 
-- **Real-time race timing**: a FastAPI + PostgreSQL platform that ingests RMonitor timing data and feeds live broadcast graphics, the KartChaser website and app
-- **Trackside hardware**: Raspberry Pi forwarders that stream timing to the cloud over WebSocket, with zero packet loss through network outages
-- **Broadcast automation**: custom Bitfocus Companion modules that control Behringer X32 / X-Air audio and Singular.live graphics during live shows
-- **Previously**: three software engineering internships at Chevron (Power Platform, Azure, .NET MAUI)
+I build the software behind live professional karting broadcasts: real-time race timing, trackside hardware, and the tools our production crew uses during a show.
 
-### 🛠️ Tech
+[![KartChaser](https://img.shields.io/badge/KartChaser-kartchaser.com-E10600?style=for-the-badge)](https://kartchaser.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
+
+</div>
+
+---
+
+## About Me
+
+I'm the Development Director at KartChaser, where we produce live broadcasts of professional karting races. I write most of the software that runs behind the scenes, and on race weekends I'm usually at the track making sure it all holds together.
+
+Most of my time goes into our timing system. It takes the raw timing feed from the track, turns it into laps, positions and results as they happen, and sends that out to our on-screen graphics, the website and the app. Track internet is never great, so the Raspberry Pis that carry data from the timing stand to the cloud save everything locally and catch up once the connection comes back.
+
+I'm finishing my IT degree at Florida International University here in Miami (graduating in 2027). Before KartChaser, I spent three summers interning at Chevron, building internal apps with Power Platform, Azure and .NET MAUI.
+
+---
+
+## What I'm Working On
+
+- Real-time race timing and results for live TV graphics
+- Trackside hardware that keeps working when the internet doesn't
+- Custom Bitfocus Companion modules for our audio mixers and Singular.live graphics
+- Automating the boring parts of broadcast day so the crew can focus on the race
+
+## Tools I Reach For
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -25,15 +45,19 @@ IT student at Florida International University (Class of 2027), based in Miami, 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 
-### 📌 Featured
+## A Few Things I've Made
 
-| Project | What it is |
-|---|---|
-| [companion-module-kc-singularlive](https://github.com/Luisd07/companion-module-kc-singularlive) | Drives up to 8 Singular.live Control Apps from Companion for live broadcast graphics |
-| [companion-module-behringer-x32-kc](https://github.com/Luisd07/companion-module-behringer-x32-kc) | X32 audio control with live metering feedbacks and show presets |
-| [FSAE-Dashboard](https://github.com/Luisd07/FSAE-Dashboard) | Arduino firmware that reads a race car's CAN bus and drives a Nextion dash display |
-| [job-application-tracker](https://github.com/Luisd07/job-application-tracker) | Flask + MySQL app with skill-match ranking for job postings |
+- [companion-module-kc-singularlive](https://github.com/Luisd07/companion-module-kc-singularlive): runs our broadcast graphics from Companion, up to 8 Singular.live apps at once
+- [companion-module-behringer-x32-kc](https://github.com/Luisd07/companion-module-behringer-x32-kc): our take on the X32 module, with live audio meters and show presets for our mics
+- [FSAE-Dashboard](https://github.com/Luisd07/FSAE-Dashboard): the dash display for my university's Formula SAE car, reading straight off the car's CAN bus
+- [job-application-tracker](https://github.com/Luisd07/job-application-tracker): a Flask app I built to keep my own job search organized
 
-### 📫 Connect
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
+## Contact
+
+I'm always happy to talk racing, broadcast tech or software.
+
+- LinkedIn: [luisd07](https://www.linkedin.com/in/luisd07)
+- GitHub: [@Luisd07](https://github.com/Luisd07)
+- KartChaser: [kartchaser.com](https://kartchaser.com)
