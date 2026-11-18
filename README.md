@@ -1,8 +1,11 @@
-<img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=slice&height=180&color=0:111111,100:E10600&text=Luis%20Diaz&fontColor=ffffff&fontSize=46&fontAlign=28&fontAlignY=40&desc=Software%20for%20live%20karting%20broadcasts&descAlign=30&descAlignY=62&rotate=-8"
-  alt="Luis Diaz banner"
-/>
+<div align="center">
+
+<h1>Luis Diaz</h1>
+<p><b>Software for live karting broadcasts</b></p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d1117,50:E10600,100:0d1117" alt="" />
+
+</div>
 
 ```yaml
 name:      Luis Diaz
