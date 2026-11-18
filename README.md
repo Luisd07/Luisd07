@@ -1,21 +1,25 @@
 <div align="center">
 
-<h1>Luis Diaz</h1>
-<p><b>Software for live karting broadcasts</b></p>
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:111111,100:E10600&text=Luis%20Diaz&fontColor=ffffff&fontAlign=50&fontAlignY=35&fontSize=48&desc=Live%20Broadcast%20Software%20%E2%80%A2%20Race%20Timing%20%E2%80%A2%20Miami%2C%20FL&descAlign=50&descAlignY=58&animation=fadeIn"
+  alt="Luis Diaz banner"
+/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d1117,50:E10600,100:0d1117" alt="" />
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=E10600&center=true&vCenter=true&width=800&lines=Development+Director+at+KartChaser;Building+real-time+race+timing;Software+for+live+karting+broadcasts;IT+%40+FIU%2C+Class+of+2027"
+    alt="Typing intro"
+  />
+</a>
+
+Development Director at **KartChaser** · IT student at **FIU** · Miami, FL
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
 
 </div>
 
-```yaml
-name:      Luis Diaz
-role:      Development Director @ KartChaser
-school:    Florida International University, IT '27
-based:     Miami, FL
-building:  live race timing and broadcast tools
-```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
+---
 
 ## 🏁 About Me
 
