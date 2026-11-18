@@ -31,25 +31,11 @@ Most of my time goes into our timing system, which turns the raw feed from the t
 
 ```mermaid
 flowchart LR
-    T["Track timing"] --> F["Trackside forwarder"]
-    F --> S{{"Timing service"}}
-
-    subgraph DATA["Race data"]
-        direction TB
-        RES["Results"]
-        GRID["Grids"]
-        PTS["Points"]
-        PEN["Penalties"]
-        ROS["Roster management"]
-    end
-
-    S --> DATA
-    S --> G["Live graphics"]
-    S -- "live triggers" --> C["Crew controls"]
-    C --> G
-
-    classDef hub fill:#E10600,stroke:#E10600,color:#ffffff,font-weight:bold
-    class S hub
+    TRACK["Timing system at the track"] --> PI["Raspberry Pi forwarder<br/>(buffers when offline)"]
+    PI --> CLOUD["Timing service<br/>FastAPI + PostgreSQL"]
+    CLOUD --> GFX["Live TV graphics<br/>Singular.live"]
+    CLOUD --> WEB["KartChaser website and app"]
+    CREW["Production crew<br/>Companion + Stream Deck"] --> GFX
 ```
 
 ## 🛠️ What I Work With
