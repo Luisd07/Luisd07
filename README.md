@@ -1,10 +1,19 @@
 <div align="center">
 
-# Luis Diaz
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=190&text=Luis%20Diaz&fontAlign=50&fontAlignY=35&fontSize=48&desc=Live%20Broadcast%20Software%20%E2%80%A2%20Race%20Timing%20%E2%80%A2%20Miami%2C%20FL&descAlign=50&descAlignY=58&animation=fadeIn&color=gradient"
+  alt="Luis Diaz banner"
+/>
 
-### Development Director · Software Engineer · IT Student at FIU
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&center=true&vCenter=true&width=800&lines=Development+Director+at+KartChaser;Building+real-time+race+timing;Software+for+live+karting+broadcasts;IT+%40+FIU%2C+Class+of+2027"
+    alt="Typing intro"
+  />
+</a>
 
-I build the software behind live professional karting broadcasts: real-time race timing, trackside hardware, and the tools our production crew uses during a show.
+<br />
 
 [![KartChaser](https://img.shields.io/badge/KartChaser-kartchaser.com-E10600?style=for-the-badge)](https://kartchaser.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
@@ -21,6 +30,17 @@ Most of my time goes into our timing system. It takes the raw timing feed from t
 
 I'm finishing my IT degree at Florida International University here in Miami (graduating in 2027). Before KartChaser, I spent three summers interning at Chevron, building internal apps with Power Platform, Azure and .NET MAUI.
 
+## How a race gets on screen
+
+```mermaid
+flowchart LR
+    TRACK["Timing system at the track"] --> PI["Raspberry Pi forwarder<br/>(buffers when offline)"]
+    PI --> CLOUD["Timing service<br/>FastAPI + PostgreSQL"]
+    CLOUD --> GFX["Live TV graphics<br/>Singular.live"]
+    CLOUD --> WEB["KartChaser website and app"]
+    CREW["Production crew<br/>Companion + Stream Deck"] --> GFX
+```
+
 ---
 
 ## What I'm Working On
@@ -32,18 +52,14 @@ I'm finishing my IT degree at Florida International University here in Miami (gr
 
 ## Tools I Reach For
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+<div align="center">
+
+<img
+  src="https://skillicons.dev/icons?i=python,fastapi,postgres,ts,js,nodejs,react,java,cs,docker,gcp,azure,raspberrypi,arduino,git,linux&perline=8"
+  alt="Languages and tools"
+/>
+
+</div>
 
 ## A Few Things I've Made
 
@@ -51,6 +67,29 @@ I'm finishing my IT degree at Florida International University here in Miami (gr
 - [companion-module-behringer-x32-kc](https://github.com/Luisd07/companion-module-behringer-x32-kc): our take on the X32 module, with live audio meters and show presets for our mics
 - [FSAE-Dashboard](https://github.com/Luisd07/FSAE-Dashboard): the dash display for my university's Formula SAE car, reading straight off the car's CAN bus
 - [job-application-tracker](https://github.com/Luisd07/job-application-tracker): a Flask app I built to keep my own job search organized
+
+## Activity
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=Luisd07&theme=github-dark-blue&hide_border=true"
+  width="49%"
+  alt="GitHub contribution streak"
+/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Luisd07&theme=github_dark"
+  width="49%"
+  alt="Repositories by language"
+/>
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Luisd07&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity"
+  width="100%"
+  alt="Contribution activity graph"
+/>
+
+</div>
 
 ---
 
@@ -61,3 +100,9 @@ I'm always happy to talk racing, broadcast tech or software.
 - LinkedIn: [luisd07](https://www.linkedin.com/in/luisd07)
 - GitHub: [@Luisd07](https://github.com/Luisd07)
 - KartChaser: [kartchaser.com](https://kartchaser.com)
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=gradient"
+  alt="Footer"
+/>
