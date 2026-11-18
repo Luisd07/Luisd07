@@ -32,9 +32,24 @@ Most of my time goes into our timing system, which turns the raw feed from the t
 ```mermaid
 flowchart LR
     T["Track timing"] --> F["Trackside forwarder"]
-    F --> S["Timing service"]
+    F --> S{{"Timing service"}}
+
+    subgraph DATA["Race data"]
+        direction TB
+        RES["Results"]
+        GRID["Grids"]
+        PTS["Points"]
+        PEN["Penalties"]
+        ROS["Roster management"]
+    end
+
+    S --> DATA
     S --> G["Live graphics"]
-    C["Crew controls"] --> G
+    S -- "live triggers" --> C["Crew controls"]
+    C --> G
+
+    classDef hub fill:#E10600,stroke:#E10600,color:#ffffff,font-weight:bold
+    class S hub
 ```
 
 ## 🛠️ What I Work With
