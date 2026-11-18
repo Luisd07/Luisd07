@@ -15,7 +15,6 @@
 
 <br />
 
-[![KartChaser](https://img.shields.io/badge/KartChaser-kartchaser.com-E10600?style=for-the-badge)](https://kartchaser.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luisd07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisd07)
 
 </div>
@@ -99,7 +98,6 @@ I'm always happy to talk racing, broadcast tech or software.
 
 - LinkedIn: [luisd07](https://www.linkedin.com/in/luisd07)
 - GitHub: [@Luisd07](https://github.com/Luisd07)
-- KartChaser: [kartchaser.com](https://kartchaser.com)
 
 <img
   width="100%"
