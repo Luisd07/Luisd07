@@ -59,7 +59,7 @@ flowchart LR
 ## 📈 Lap Chart
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Luisd07&bg_color=0d1117&color=ffffff&line=E10600&point=ffffff&area=true&area_color=E10600&hide_border=true&custom_title=Contributions"
+  src="https://ghchart.rshah.org/E10600/Luisd07"
   width="100%"
   alt="Contribution graph"
 />
