@@ -56,13 +56,6 @@ flowchart LR
 | 🎚️ [companion-module-behringer-x32-kc](https://github.com/Luisd07/companion-module-behringer-x32-kc) | X32 mixer control with live audio meters |
 | 📋 [job-application-tracker](https://github.com/Luisd07/job-application-tracker) | Flask app for keeping a job search organized |
 
-## 📈 Lap Chart
-
-<img
-  src="https://ghchart.rshah.org/E10600/Luisd07"
-  width="100%"
-  alt="Contribution graph"
-/>
 
 ---
 
