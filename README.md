@@ -54,7 +54,6 @@ flowchart LR
 | 💸 [Tally](https://github.com/Luisd07/Tally) | Personal expense tracker: SwiftUI iPhone app on a FastAPI + PostgreSQL server with bank sync and passkey sign-in |
 | 🎛️ [companion-module-kc-singularlive](https://github.com/Luisd07/companion-module-kc-singularlive) | Runs our broadcast graphics from Companion |
 | 🎚️ [companion-module-behringer-x32-kc](https://github.com/Luisd07/companion-module-behringer-x32-kc) | X32 mixer control with live audio meters |
-| 🏁 [FSAE-Dashboard](https://github.com/Luisd07/FSAE-Dashboard) | Dash display for FIU's Formula SAE car, straight off the CAN bus |
 | 📋 [job-application-tracker](https://github.com/Luisd07/job-application-tracker) | Flask app for keeping a job search organized |
 
 ## 📈 Lap Chart
